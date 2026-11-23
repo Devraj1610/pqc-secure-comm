@@ -391,6 +391,11 @@ export const RegisterPage = () => {
             </p>
           </div>
         </div>
+
+        {/* Global Author & Copyright Notice */}
+        <p className="mt-4 text-center text-[10px] sm:text-[11px] text-[var(--text-tertiary)] uppercase tracking-wider font-mono select-none">
+          Copyright © 2026 Akarsh Sujay Kumar. All rights reserved.
+        </p>
       </div>
 
       {/* EXPLAINER SHEET MODAL */}

@@ -120,9 +120,16 @@ export default function AccessSection() {
       </div>
 
       {/* ── Footer ───────────────────────────────────────────────────────── */}
-      <footer className="text-[10px] text-[var(--text-tertiary)] uppercase tracking-wider flex items-center justify-between flex-wrap gap-2 pt-2 relative z-10">
-        <span>POST-QUANTUM HYBRID SWITCHING ENVIRONMENT</span>
-        <span className="font-mono">PAGE 03 / 03</span>
+      <footer className="text-[10px] sm:text-[11px] text-[var(--text-tertiary)] uppercase tracking-wider flex items-center justify-between flex-wrap gap-2 pt-3 border-t border-[var(--edge-rest)] relative z-10">
+        <div className="flex items-center gap-2">
+          <span className="font-medium text-[var(--text-secondary)]">Copyright © 2026 Akarsh Sujay Kumar.</span>
+          <span>All rights reserved.</span>
+        </div>
+        <div className="flex items-center gap-3 font-mono">
+          <span>POST-QUANTUM HYBRID SWITCHING</span>
+          <span className="opacity-50">•</span>
+          <span>PAGE 03 / 03</span>
+        </div>
       </footer>
     </section>
   );

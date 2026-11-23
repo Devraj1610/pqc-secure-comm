@@ -294,12 +294,18 @@ const Sidebar = ({ onContactSelect }) => {
       </div>
 
       {/* Footer System Status matching rest edge */}
-      <div className="p-3 border-t border-[var(--edge-rest)] flex items-center justify-between text-xs text-[var(--text-tertiary)]">
-        <span className="flex items-center gap-1.5">
-          <Shield size={12} className="text-[var(--col-standard)]" />
-          <span className="font-sans">FIPS 203 / 204</span>
-        </span>
-        <span className="text-[var(--col-verified)] text-[11px] font-medium tracking-wide">SECURE</span>
+      <div className="p-2.5 sm:p-3 border-t border-[var(--edge-rest)] flex flex-col gap-1 text-xs text-[var(--text-tertiary)]">
+        <div className="flex items-center justify-between">
+          <span className="flex items-center gap-1.5">
+            <Shield size={12} className="text-[var(--col-standard)]" />
+            <span className="font-sans">FIPS 203 / 204</span>
+          </span>
+          <span className="text-[var(--col-verified)] text-[11px] font-medium tracking-wide">SECURE</span>
+        </div>
+        <div className="text-[10px] text-[var(--text-tertiary)] flex items-center justify-between font-mono pt-0.5">
+          <span>© 2026 Akarsh Sujay Kumar</span>
+          <span className="text-[9px] uppercase tracking-wider opacity-70">Proprietary</span>
+        </div>
       </div>
 
       {/* User Profile Modal */}
