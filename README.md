@@ -1,7 +1,7 @@
 # Adaptive Hybrid Post-Quantum Secure Communication System
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+![License: Proprietary](https://img.shields.io/badge/License-Proprietary-red.svg)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![Node 20+](https://img.shields.io/badge/node-20+-blue.svg)
 
@@ -164,14 +164,16 @@ pqc-secure-comm/
 3. **PQC Cryptographic Acceleration**: When `liboqs` (Open Quantum Safe) shared libraries are compiled on the host system, native C-level ML-KEM-768 and ML-DSA-65 primitives execute. In headless or lightweight containers without `liboqs`, the system operates in calibrated simulation mode matching exact NIST FIPS 203/204 byte lengths and structural invariants.
 4. **Out of Scope**: Physical side-channel attacks (DPA/CPA) on host hardware, hardware security module (HSM) key isolation, and physical quantum repeater networks are out of scope.
 
-## License
+## License & Copyright
 
-Copyright © 2026 Akarsh Sujay Kumar
+Copyright © 2026 Akarsh Sujay Kumar. All rights reserved.
 
-Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License in the [LICENSE](LICENSE) file or at:
+This project and all associated source code, algorithms, and documentation are proprietary software owned exclusively by Akarsh Sujay Kumar.
 
-```
-http://www.apache.org/licenses/LICENSE-2.0
-```
+No individual or entity may copy, reproduce, duplicate, modify, distribute, publish, deploy, or commercially exploit this software in whole or in part without the prior written permission of the copyright holder.
 
-Unless required by applicable law or agreed to in writing, software distributed under the License is distributed on an "AS IS" BASIS, WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. See the License for the specific language governing permissions and limitations under the License.
+See the [LICENSE](LICENSE) and [NOTICE](NOTICE) files for complete proprietary terms and conditions.
+
+For licensing inquiries, academic citation, or authorized permissions:
+- **Author**: Akarsh Sujay Kumar
+- **Contact**: `akarshsujaykumar.23is@saividya.ac.in`

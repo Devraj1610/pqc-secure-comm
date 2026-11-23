@@ -3,7 +3,7 @@ name = "pqc-secure-comm-backend"
 version = "1.0.0"
 description = "Adaptive Hybrid Post-Quantum Secure Communication Backend"
 requires-python = ">=3.11"
-license = { text = "Apache-2.0" }
+license = { text = "Proprietary" }
 authors = [
     { name = "Akarsh Sujay Kumar", email = "akarshsujaykumar.23is@saividya.ac.in" }
 ]
