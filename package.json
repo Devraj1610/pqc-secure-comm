@@ -1,4 +1,7 @@
 {
+  "name": "pqc-secure-comm",
+  "version": "1.0.0",
+  "license": "Apache-2.0",
   "devDependencies": {
     "puppeteer": "^25.18.1"
   }
