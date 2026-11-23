@@ -1,7 +1,7 @@
 # Adaptive Hybrid Post-Quantum Secure Communication System
 
 ![Build Status](https://img.shields.io/badge/build-passing-brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 ![Python 3.11+](https://img.shields.io/badge/python-3.11+-blue.svg)
 ![Node 20+](https://img.shields.io/badge/node-20+-blue.svg)
 
