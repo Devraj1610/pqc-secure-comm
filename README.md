@@ -166,6 +166,8 @@ pqc-secure-comm/
 
 ## License
 
+Copyright © 2026 Akarsh Sujay Kumar
+
 Licensed under the Apache License, Version 2.0 (the "License"); you may not use this project except in compliance with the License. You may obtain a copy of the License in the [LICENSE](LICENSE) file or at:
 
 ```
